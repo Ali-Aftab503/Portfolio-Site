@@ -16,7 +16,7 @@ export default function Navbar() {
     visible: {
       opacity: 1,
       x: 0,
-      transition: { duration: 0.5, ease: "easeOut", delay: 0 },
+      transition: { duration: 0.5, ease: "easeOut" as const, delay: 0 },
     },
     hover: {
       scale: 1.05,
@@ -29,7 +29,7 @@ export default function Navbar() {
     visible: (i: number) => ({
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5, delay: 0.15 + i * 0.1, ease: "easeOut" },
+      transition: { duration: 0.5, delay: 0.15 + i * 0.1, ease: "easeOut"as const },
     }),
     hover: {
       color: "#0ea5e9",
