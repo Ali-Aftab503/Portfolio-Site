@@ -123,7 +123,7 @@ function NebulaClouds() {
 function ShootingStars() {
   const linesRef = useRef<THREE.Group>(null);
 
-  useFrame((state) => {
+  useFrame(() => {
     if (linesRef.current) {
       linesRef.current.children.forEach((line, i) => {
         const speed = 0.5 + (i % 3) * 0.3;

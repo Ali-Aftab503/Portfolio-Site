@@ -5,6 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
 import NavbarResumeButton from "./NavbarResumeButton";
+import Image from 'next/image';
 
 
 export default function Navbar() {
@@ -91,11 +92,8 @@ export default function Navbar() {
               href="/"
               className="text-2xl font-bold text-blue-400"
             >
-              <img
-                src="/logo.png" // Assumes logo.png is in the /public folder
-                alt="Ali Aftab Portfolio Logo"
-                className="h-14 w-auto" // Adjust height and width as needed
-              />
+              <Image src="/logo.png" alt="Ali Aftab Portfolio Logo" width={70} height={70} />
+
             </Link>
             {/* END OF CHANGE */}
           </motion.div>
