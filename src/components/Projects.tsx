@@ -99,7 +99,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-4">
-                  {project.link ? (
+                  {'link' in project && project.link ? (
                     <motion.div
                       className="flex-1"
                       whileHover="hover"
@@ -123,7 +123,7 @@ export default function Projects() {
                     </button>
                   )}
 
-                  {project.demo ? (
+                  {'demo' in project && project.demo ? (
                     <motion.div
                       className="flex-1"
                       whileHover="hover"
