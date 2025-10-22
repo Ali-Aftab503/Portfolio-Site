@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { portfolioData } from "@/data/portfolio";
 import dynamic from "next/dynamic";
 import Typewriter from "@/components/Typewriter";
 
@@ -79,7 +78,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-300 mb-8 h-20 md:h-24 flex items-center justify-center"
         >
-          <span className="mr-3">I'm</span>
+          <span className="mr-3">I&apos;m</span>
           <Typewriter
             phrases={typewriterPhrases}
             typingSpeed={100}
