@@ -143,22 +143,23 @@ function ShootingStars() {
       const geometry = new THREE.BufferGeometry().setFromPoints(points);
       
       return (
-        <line
+        <primitive
           key={i}
-          geometry={geometry}
+          object={new THREE.Line(
+            geometry,
+            new THREE.LineBasicMaterial({
+              color: "#ffffff",
+              transparent: true,
+              opacity: 0.6,
+              blending: THREE.AdditiveBlending,
+            })
+          )}
           position={[
             Math.random() * 100 - 50,
             Math.random() * 30 - 15,
             Math.random() * -30 - 10
           ]}
-        >
-          <lineBasicMaterial
-            color="#ffffff"
-            transparent
-            opacity={0.6}
-            blending={THREE.AdditiveBlending}
-          />
-        </line>
+        />
       );
     });
   }, []);
