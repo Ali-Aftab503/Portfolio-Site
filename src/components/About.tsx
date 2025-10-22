@@ -73,12 +73,12 @@ export default function About() {
         >
           <motion.div variants={itemVariants}>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a full-stack developer passionate about creating beautiful and
+              I&apos;m a full-stack developer passionate about creating beautiful and
               functional web applications. With experience in the MERN stack, I
               love building scalable solutions that solve real-world problems.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies or
+              When I&apos;m not coding, you can find me exploring new technologies or
               contributing to open-source projects.
             </p>
           </motion.div>
