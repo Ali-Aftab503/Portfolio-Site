@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { portfolioData } from "@/data/portfolio";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -77,18 +76,18 @@ export default function Contact() {
     },
   };
 
-  const socialVariants = {
-    hidden: { opacity: 0, scale: 0.5 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.4 },
-    },
-    hover: {
-      scale: 1.1,
-      color: "#2563eb",
-    },
-  };
+  // const socialVariants = {
+  //   hidden: { opacity: 0, scale: 0.5 },
+  //   visible: {
+  //     opacity: 1,
+  //     scale: 1,
+  //     transition: { duration: 0.4 },
+  //   },
+  //   hover: {
+  //     scale: 1.1,
+  //     color: "#2563eb",
+  //   },
+  // };
 
   return (
     <section
@@ -181,7 +180,7 @@ export default function Contact() {
               <span className="flex items-center justify-center gap-2">
                 <motion.span
                   animate={{ rotate: 360 }}
-                  transition={{ repeat: Infinity, duration: 1, linear: true }}
+                  transition={{ repeat: Infinity, duration: 1, ease:"linear" }}
                 >
                   ⏳
                 </motion.span>
