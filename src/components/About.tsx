@@ -29,7 +29,7 @@ export default function About() {
       opacity: 1,
       scale: 1,
       y: 0,
-      transition: { duration: 0.4, type: "spring", stiffness: 100 },
+      transition: { duration: 0.4, type: "spring"as const, stiffness: 100 },
     },
     hover: {
       scale: 1.1,
