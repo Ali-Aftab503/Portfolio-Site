@@ -29,7 +29,7 @@ export default function About() {
       opacity: 1,
       scale: 1,
       y: 0,
-      transition: { duration: 0.4, type: "spring"as const, stiffness: 100 },
+      transition: { duration: 0.4, type: "spring" as const, stiffness: 100 },
     },
     hover: {
       scale: 1.1,
@@ -73,13 +73,10 @@ export default function About() {
         >
           <motion.div variants={itemVariants}>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I&apos;m a full-stack developer passionate about creating beautiful and
-              functional web applications. With experience in the MERN stack, I
-              love building scalable solutions that solve real-world problems.
+              Full-stack developer specializing in architecting enterprise-grade web applications with Next.js, React, and TypeScript. I build scalable, production-ready platforms featuring real-time collaboration systems, advanced 3D interfaces, and complex state management—delivering solutions that drive business value and exceptional user experiences..
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              When I&apos;m not coding, you can find me exploring new technologies or
-              contributing to open-source projects.
+              From implementing WebSocket-powered chat systems to crafting immersive Three.js experiences and integrating third-party APIs, I transform ambitious ideas into high-performance applications.
             </p>
           </motion.div>
 

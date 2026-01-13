@@ -41,11 +41,11 @@ export default function Hero() {
   };
 
   const typewriterPhrases = [
-    "a Full Stack Developer",
-    "a Problem Solver",
-    "a Software Engineer",
-    "a Tech Enthusiast",
-    "building cool stuff",
+    "Software Engineer",  
+    "a Programmer",
+    "MERN Developer",
+    "Problem Solver",  
+    "Batman",
   ];
 
   return (
@@ -92,9 +92,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto"
         >
-          I build scalable web applications using modern technologies. 
-          Specializing in creating exceptional digital experiences with 
-          clean code and pixel-perfect designs.
+          Architecting scalable web applications with Next.js, MERN, and TypeScript. Specializing in real-time systems, advanced 3D interfaces, and production-ready solutions backed by clean, maintainable code.
         </motion.p>
 
         <motion.div

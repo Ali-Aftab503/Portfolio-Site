@@ -99,7 +99,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-4">
-                  {'link' in project && project.link ? (
+                  {'github' in project && project.github ? (
                     <motion.div
                       className="flex-1"
                       whileHover="hover"
@@ -107,7 +107,7 @@ export default function Projects() {
                       variants={buttonVariants}
                     >
                       <Link
-                        href={project.link}
+                        href={project.github}
                         target="_blank"
                         className="block text-center px-4 py-2 bg-blue-500 text-white rounded font-semibold hover:bg-blue-600 transition"
                       >

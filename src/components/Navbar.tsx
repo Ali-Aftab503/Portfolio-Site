@@ -92,7 +92,7 @@ export default function Navbar() {
               href="/"
               className="text-2xl font-bold text-blue-400"
             >
-              <Image src="/logo.png" alt="Ali Aftab Portfolio Logo" width={70} height={70} />
+              <Image src="/icon.png" alt="Ali Aftab Portfolio Logo" width={70} height={70} />
 
             </Link>
             {/* END OF CHANGE */}

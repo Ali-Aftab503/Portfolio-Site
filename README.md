@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ali Aftab - Portfolio Website
 
-## Getting Started
+A modern, interactive portfolio website showcasing my work and skills with stunning 3D visuals and smooth animations.
 
-First, run the development server:
+🌐 **Live Site:** [aliaftab.live](https://aliaftab.live)
 
+## ✨ Features
+
+- **Interactive 3D Hero Section** - Immersive Three.js-powered 3D graphics that respond to user interaction
+- **Smooth Animations** - Fluid page transitions and micro-interactions using Framer Motion
+- **Modern Design** - Clean, responsive UI that works seamlessly across all devices
+- **Optimized Performance** - Built with Next.js for lightning-fast page loads and SEO optimization
+- **Project Showcase** - Detailed portfolio of my latest work and achievements
+
+## 🛠️ Built With
+
+- **[Next.js](https://nextjs.org/)** - React framework for production-grade applications
+- **[Three.js](https://threejs.org/)** - JavaScript 3D library for creating the interactive hero section
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library for React
+- **[Vercel](https://vercel.com/)** - Deployment and hosting platform
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+portfolio/
+├── app/                # Next.js app directory
+├── components/         # React components
+│   ├── Hero/        # Three.js 3D hero section
+│   └── ...
+├── public/            # Static assets
+├── styles/            # CSS/styling files
+└── package.json
+```
 
-## Learn More
+## 🎨 Key Components
 
-To learn more about Next.js, take a look at the following resources:
+### 3D Hero Section
+The hero section features a live 3D scene built with Three.js, creating an engaging first impression with interactive elements and smooth animations.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Framer Motion Animations
+Page transitions, scroll-triggered animations, and hover effects are all powered by Framer Motion for a polished, professional feel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Deployment
 
-## Deploy on Vercel
+This site is deployed on Vercel with automatic deployments from the main branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deploy Your Own
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ali-aftab/portfolio)
+
+
+
+## 📧 Contact
+
+Ali Aftab - [aliaftab.live](https://aliaftab.live)
+
+Feel free to reach out if you have any questions or would like to collaborate!
+
+---
+
