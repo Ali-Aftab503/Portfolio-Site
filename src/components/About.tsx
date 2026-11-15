@@ -73,7 +73,7 @@ export default function About() {
         >
           <motion.div variants={itemVariants}>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              Full-stack developer specializing in architecting enterprise-grade web applications with Next.js, React, and TypeScript. I build scalable, production-ready platforms featuring real-time collaboration systems, advanced 3D interfaces, and complex state management—delivering solutions that drive business value and exceptional user experiences..
+              Full-stack developer with professional experience since April 2026, currently working as an Associate Software Engineer at Axis Cyber Solutions. I build web applications using the MERN stack, Next.js, and TypeScript, with experience contributing to AI-powered tools for K–12 school districts.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
               From implementing WebSocket-powered chat systems to crafting immersive Three.js experiences and integrating third-party APIs, I transform ambitious ideas into high-performance applications.
