@@ -133,6 +133,11 @@ export default function Navbar() {
     </a>
   </motion.li>
   <motion.li variants={itemVariants} whileHover="hover">
+    <Link href="/#experience" className="transition">
+      Experience
+    </Link>
+  </motion.li>
+  <motion.li variants={itemVariants} whileHover="hover">
     <a href="#projects" className="transition">
       Projects
     </a>
@@ -166,6 +171,11 @@ export default function Navbar() {
               <a href="#about" onClick={() => setIsOpen(false)}>
                 About
               </a>
+            </motion.li>
+            <motion.li variants={itemVariants}>
+              <Link href="/#experience" onClick={() => setIsOpen(false)}>
+                Experience
+              </Link>
             </motion.li>
             <motion.li variants={itemVariants}>
               <a href="#projects" onClick={() => setIsOpen(false)}>

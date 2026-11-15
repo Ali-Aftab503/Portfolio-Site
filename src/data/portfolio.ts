@@ -31,6 +31,23 @@ export const portfolioData = {
   "Git",
   "Vercel",
   ],
+  experience: [
+    {
+      company: "Axis Cyber Solutions",
+      role: "Associate Software Engineer",
+      startDate: "2026-04",
+      period: "April 2026 – Present",
+      description:
+        "Working on full-stack web applications using the MERN stack and Next.js.",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js", "Next.js"],
+      project: {
+        name: "schoolOS",
+        url: "https://www.theschoolos.com/",
+        contribution: "Contributed to schoolAgent, a retrieval-augmented generation (RAG) assistant, and otto, the in-app AI copilot, within the schoolOS platform for K–12 school districts.",
+        overview: "The platform brings together school support requests, device and asset management, and operational workflows across products including schoolHelpdesk, schoolAssets, and schoolAgent.",
+      },
+    },
+  ],
   projects: [
      {
     id: 1,
