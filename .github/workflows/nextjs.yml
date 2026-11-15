@@ -78,7 +78,7 @@ jobs:
           # Browser-public identifiers; EmailJS private keys are not used.
           NEXT_PUBLIC_EMAILJS_PUBLIC_KEY: rwQ_u-WSApGN2Aga_
           NEXT_PUBLIC_EMAILJS_SERVICE_ID: service_zj55tgt
-          NEXT_PUBLIC_EMAILJS_TEMPLATE_ID: template_pxyw7er
+          NEXT_PUBLIC_EMAILJS_TEMPLATE_ID: template_0ueokot
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
